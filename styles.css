@@ -1,6 +1,6 @@
 body {
     /*IMAGEM PIZZARIA */
-    background-image: url('src/img/pizza.jpg');
+    background-image: url('/pizza.jpg');
 }
 
 P {
