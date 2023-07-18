@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Formulários</title>
+
+
+</head>
+
+<body> 
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+        
+    <h1>Pizzaria Efraim</h1>
+   
+    <form method="get">
+    <div class="dados">
+        <p><label><b>Nome do Cliente: </b><input name="nome" required placeholder="Seu Nome"></label></p>
+        <p><label><b>Telefone: </b><input type=tel name="telefone" placeholder= "Telefone"></label></p>
+        <p><label><b>E-mail: </b> <input type=email name="email" placeholder="Email"></label></p>
+    </div>
+
+    <div class="tamanho">
+        <fieldset>
+            <legend><b>Tamanho da Pizza</b></legend>
+            <p><label> <input type=radio name="tamanho" required value="pequena">Pequena</label></p>
+            <p><label> <input type=radio name="tamanho" required value="média">Média</label></p>
+            <p><label> <input type=radio name="tamanho" required value="grande">Grande</label></p>
+        </fieldset>
+    </div>
+    <div class="extras">
+        <fieldset>
+            <legend><b>Extras</b></legend>
+            <p><label> <input type=checkbox name="extras" required value="bacon">Bacon</label></p>
+            <p><label> <input type=checkbox name="extras" required value="cheese">Queijo</label></p>
+            <p><label> <input type=checkbox name="extras" required value="onion">Cebola</label></p>
+            <p><label> <input type=checkbox name="extras" required value="mushroom">Cogumelos</label></p>
+        </fieldset>
+
+    </div>
+    <div class="pedido">
+        <fieldset> 
+            <legend><b>Entrega</b></legend>
+        <p> <label>Hora da entrega:<input type=time min="11:00" max="21:00" step="900" name="entrega" required></label></p>
+        <P><label>Data da entrega:<input type=date name ="data" required></label></P>
+    <p><label>Instruções de entrega(endereço):<textarea name="comentários" maxlength=500></textarea></label></p>
+        </fieldset> 
+    </div>
+        <p><button><b>Fazer Pedido</b></button></p>   
+</form>
+
+
+  
+</body>
+
+</html>

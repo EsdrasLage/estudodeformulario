@@ -1,0 +1,61 @@
+body {
+    /*IMAGEM PIZZARIA */
+    background-image: url('src/img/pizza.jpg');
+}
+
+P {
+    font-family: Cambria;
+    color: #000000;
+}
+
+fieldset {
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: #f7320f7c;
+    font-size:15px;
+}
+
+h1 {
+    /*nome Pizzaria Efraim*/
+    font-family: Georgia;
+    border: #f39a2593 solid 4px;
+    font-style: italic;
+    font-size: 80px;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 180px;
+    margin-left: 425px;
+    margin-top: 40px;
+}
+
+button {/*botão*/
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    margin-top:75px;
+}
+div.dados  {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    display: flex;
+    text-align:left;
+    
+}
+
+.dados input {
+    width: 150px;
+    margin-top: 10px;
+    margin-left:2px;
+    float: left;
+  
+}
+div.pedido label {
+    font-size: 15px;
+
+}
+
